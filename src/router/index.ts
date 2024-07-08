@@ -8,12 +8,12 @@ export const routes = [
     {
         name: 'login',
         path: '/login',
-        component: () => import((`../pages/login.vue`))
+        component: () => import("../pages/Login.vue")
     },
     {
         name: 'account',
         path: '/account',
-        component: () => import("../pages/account.vue")
+        component: () => import("../pages/Account.vue")
     }
 
 ]
@@ -25,7 +25,7 @@ const router = createRouter({
 })
 
 
-router.beforeEach((to,from, next) => {
+router.beforeEach((to,from, next): void => {
     next()
 })
 
