@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@form-create/element-ui": "^3.2.0",
+    "core-js": "^3.37.1",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
+    "@vitejs/plugin-legacy": "^5.4.1",
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
     "sass": "^1.77.6",

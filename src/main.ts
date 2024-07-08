@@ -7,6 +7,7 @@ import router from '@/router/index'
 import '../common.scss'
 import 'virtual:windi.css'
 import formCreate from '@form-create/element-ui'
+import '@/polyfill/polyfill'
 
 const app = createApp(App)
 app.use(createPinia())
