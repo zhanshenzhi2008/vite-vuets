@@ -1,3 +1,5 @@
+
+
 <template>
   <form-create :rule="rule" v-model:api="fApi" :option="options"/>
 </template>

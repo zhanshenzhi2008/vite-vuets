@@ -1,5 +1,5 @@
 <template>
-  <div @click="toAccount">toAccount</div>
+  <div @click="toAccount">登录</div>
   <router-view></router-view>
 </template>
 <script lang="ts" setup>

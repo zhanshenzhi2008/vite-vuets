@@ -2,6 +2,7 @@
   "name": "ojrs-tutorial",
   "private": true,
   "version": "0.0.0",
+  "type_desc": "这个是自己加的，本来不需要的 在package.json中加入 \"type\": \"module\",  然后在js文件导入导出用import  和export，es6的规范； 在package.json中不加 \"type\": \"module\",  然后在js文件导入导出用module.export  和 require， commonjs的规范",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,17 +10,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@form-create/designer": "^3.2.3",
     "@form-create/element-ui": "^3.2.0",
     "core-js": "^3.37.1",
+    "element-plus": "^2.7.6",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
     "@vitejs/plugin-legacy": "^5.4.1",
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
+    "eslint": "^9.6.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-vue": "^9.27.0",
+    "prettier": "^3.3.2",
     "sass": "^1.77.6",
     "typescript": "^5.2.2",
     "vite": "^5.3.1",
