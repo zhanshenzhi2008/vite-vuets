@@ -10,12 +10,12 @@ import '@/polyfill/polyfill'
 import ElementPlus from 'element-plus/es/index'
 import 'element-plus/dist/index.css'
 
-/* ---- FcDesigner.vue begin------*/
+/* ---- DemoFcDesigner.vue begin------*/
 import formCreate from '@form-create/element-ui'
 import FcDesigner from '@form-create/designer'
 import ELEMENT from 'element-plus';
 import 'element-plus/dist/index.css';
-/* ---- FcDesigner.vue end------*/
+/* ---- DemoFcDesigner.vue end------*/
 
 const app = createApp(App)
 
@@ -25,6 +25,6 @@ app.use(FcDesigner)
 app.use(createPinia())
 app.use(ElementPlus)
 app.use(formCreate)
-// app.use(FcDesigner.vue)
+// app.use(DemoFcDesigner.vue)
 app.use(router)
 app.mount('#app');

@@ -1,12 +1,12 @@
 <template>
   <div @click="toLogin"> 返回</div>
-  <CreateForm></CreateForm>
+  <Demo-form></Demo-form>
   <router-view> </router-view>
 </template>
 <script lang="ts" setup>
 
 import { useRoute, useRouter } from 'vue-router'
-import CreateForm from '@/components/DemoForm.vue';
+import DemoForm from '@/components/DemoForm.vue';
 
 const router = useRouter()
 function toLogin() {
